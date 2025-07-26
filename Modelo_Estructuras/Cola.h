@@ -26,7 +26,7 @@ public:
 
 private:
     nodoCola<T>* cab; // Apunta al nodo cabecera
-    nodoCola<T>* fin; // Apunta al último nodo
+    nodoCola<T>* fin; // Apunta al ï¿½ltimo nodo
 };
 
 template <class T>
@@ -35,7 +35,7 @@ void Cola<T>::insCola(T i) {
     nuevo->dato = i;
     nuevo->sig = nullptr;
 
-    fin->sig = nuevo; //Conectar el último nodo con el nuevo
+    fin->sig = nuevo; //Conectar el ï¿½ltimo nodo con el nuevo
     fin = nuevo;      //Actualizar el puntero fin al nuevo nodo
 }
 
@@ -45,11 +45,11 @@ T Cola<T>::atenderCola() {
         return T();
     }
 
-    nodoCola<T>* aux = cab->sig; //Primer nodo real (después del cabecera)
+    nodoCola<T>* aux = cab->sig; //Primer nodo real (despuï¿½s del cabecera)
     T valor = aux->dato;
     cab->sig = aux->sig; //Avanzar la cabecera
 
-    if (aux == fin) { 	//Si se atiende el último nodo
+    if (aux == fin) { 	//Si se atiende el ï¿½ltimo nodo
         fin = cab;     // Restablecer fin a la cabecera
     }
 
@@ -60,7 +60,7 @@ T Cola<T>::atenderCola() {
 template <class T>
 T Cola<T>::retornarValor() {
     if (colaVacia()) {
-        return T(); // Retornar un valor por defecto si la cola está vacía
+        return T(); // Retornar un valor por defecto si la cola estï¿½ vacï¿½a
     }
     return cab->sig->dato; // Retornar el dato del primer nodo real
 }
@@ -73,11 +73,11 @@ bool Cola<T>::colaVacia() {
 
 template <class T>
 bool Cola<T>::existeElemento(T valor) {
-    nodoCola<T>* aux = cab->sig; // Primer nodo real (después del cabecera)
+    nodoCola<T>* aux = cab->sig; // Primer nodo real (despuï¿½s del cabecera)
     
     while (aux != nullptr) {
         if (aux->dato == valor) {
-            return true; // Si el valor ya está en la cola, retornamos true
+            return true; // Si el valor ya estï¿½ en la cola, retornamos true
         }
         aux = aux->sig;
     }

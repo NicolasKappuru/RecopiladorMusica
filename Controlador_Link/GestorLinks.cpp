@@ -16,6 +16,7 @@ GestorLinks::GestorLinks(DAO* concreto) {
 	posLibres = SingletonPosLibres<int>::obtenerInstanciaPosLibres();
 	vista = VistaConsola(); 
 	LinkDAO = concreto;	
+	LinkDAO->crearArchivo(); // Asegurarse de que el archivo se crea al iniciar el gestor
 	arregloPos = "";
 }
 

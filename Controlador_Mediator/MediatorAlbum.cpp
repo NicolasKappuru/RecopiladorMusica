@@ -20,6 +20,7 @@ MediatorAlbum::MediatorAlbum(DAO* concreto) {
 	nodoAux = nullptr; 
 	vista = VistaConsola(); 
 	AlbumDAO = concreto;
+	AlbumDAO->crearArchivo(); //Aseguramos que el archivo exista
 	cadena = "";
 }
 

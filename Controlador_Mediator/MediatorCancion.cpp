@@ -23,6 +23,8 @@ MediatorCancion::MediatorCancion(DAO* concreto) {
 	vista = VistaConsola();
 	ArtistaDAO = new ArtistaDAOImpl();  
 	CancionDAO = concreto;
+	ArtistaDAO->crearArchivo(); //Aseguramos que el archivo exista
+	CancionDAO->crearArchivo(); //Aseguramos que el archivo exista
 	cadena = ""; 
 }
 

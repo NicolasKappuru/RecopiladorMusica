@@ -27,9 +27,14 @@ MediatorArtista::MediatorArtista(DAO* concreto) {
 	nodoAux = nullptr; 
 	vista = VistaConsola(); 
 	ArtistaDAO = concreto;
+	cout << "Ey, mediator si tiene contructro " << endl;
+	ArtistaDAO->crearArchivo(); //Aseguramos que el archivo exista
+	cout << "Entramos a crear el archivo " << endl;
+
 }
 
 bool MediatorArtista::insercion() {
+	
 	int pos;
 	
 	string nombre_Art = vista.leerDato("[1] Inserte nombre: ");

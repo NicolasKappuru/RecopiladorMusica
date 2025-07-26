@@ -9,7 +9,7 @@
 
 class Controlador {
 	private: 
-		SingletonPosLibres<int>* posLibres;
+		SingletonPosLibres<int>* posLibres; 
 		SingletonArbolID<string>* arbolID;  
 		SingletonArbolBusq<string>* arbolBusq;  
 		NodoArbolBusquedas<string>* nodoAux; 

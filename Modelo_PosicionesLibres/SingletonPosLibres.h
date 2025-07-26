@@ -10,7 +10,8 @@
 using namespace std; 
 
 //Este arreglo de colas, es para cada una de las colas de posLibres
-//[0] para Albunes  [1] para Canciones  [2] para Artistas
+//[0] para Albunes  [1] para Canciones  [2] para Artistas  [3] para Links
+
 template<class T>
 class SingletonPosLibres {
 private:

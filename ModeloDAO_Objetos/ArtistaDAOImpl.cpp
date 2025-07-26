@@ -14,8 +14,10 @@ bool ArtistaDAOImpl::archivoExiste(string nombreArchivo) {
 
 bool ArtistaDAOImpl::crearArchivo() {
     if (archivoExiste("./Archivos/Artista.txt")) { //Poner . es una forma de referirse al directorio en el que te encuentras actualmente.
+        cout << "El archivo ya existe." << endl;
         return false; 							  	
     }else{
+        cout << "El archivo no existe, se creara uno nuevo." << endl;
         ofstream archivo("./Archivos/Artista.txt"); //output para escritura
         if (archivo.fail()){
             return false; 
@@ -30,7 +32,7 @@ string ArtistaDAOImpl::leerDato(int eleccion) {
     string dato;
 
     if (archivo.is_open()) {
-        archivo.seekg((eleccion-1) * 99, ios::beg);  // Tamaño de la cadena +2
+        archivo.seekg((eleccion-1) * 99, ios::beg);  // Tamaï¿½o de la cadena +2
         getline(archivo, dato);  
         archivo.close();  // Cerrar el archivo
     } else {
@@ -44,7 +46,7 @@ void ArtistaDAOImpl::modificarDato(int eleccion, string nuevoDato) {
     fstream archivo("./Archivos/Artista.txt", ios::in | ios::out);  // Abrir el archivo en modo lectura y escritura
     if (archivo.is_open()) {
         string datoModificado = nuevoDato+"\n";
-        archivo.seekp((eleccion - 1) * 99, ios::beg);  // Posicionarse al inicio de la línea (+2 incluye salto de línea)
+        archivo.seekp((eleccion - 1) * 99, ios::beg);  // Posicionarse al inicio de la lï¿½nea (+2 incluye salto de lï¿½nea)
         archivo.write(datoModificado.c_str(), 98);  // Escribir exactamente +1 caracteres
         archivo.close();  
     } else {
@@ -54,7 +56,7 @@ void ArtistaDAOImpl::modificarDato(int eleccion, string nuevoDato) {
 
 void ArtistaDAOImpl::eliminarNposLibre(int eleccion) {//Eliminara y pondra pos libre
 	string posLibre;
-	for (int i = 0; i < 97; ++i) { //Tamaño de la cadena
+	for (int i = 0; i < 97; ++i) { //Tamaï¿½o de la cadena
         posLibre += '0';  
     }
 	modificarDato(eleccion, posLibre); 
