@@ -1,0 +1,15 @@
+Carabana-0-1-1-2003Mago de oz|0-0-0-0-0|Discos Denver-1-1-2-2023Rock Nacional|0-0-0-0-0|0-0-0-0-0
+Carabana-0-1-1-2003Espania|0-0-0-0-0|Denver-1-1-2-2023Colombia|0-0-0-0-0|0-0-0-0-0
+10:10-0-1-1-EspaniaGaia|06:03-1-1-2-BogotaToda la noche|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0
+NullVoz-0-1-1-CadoVoz|NullBlastoise-0-1-1-KappuruBlastoise|Nullvlv-0-1-2-vervlv|MetalVoz-1-1-1-Jose AndreaVoz|0-0-0-0-0|Nulllul-1-1-1-lollul|Rock SuaveVoz-1-1-2-Barrio PobreVoz|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0
+1-0-2-1-Metal2003-2-Rock Suave2023|0-0-0-0-0|0-0-0-0-0
+Original-0-1-1-Gaia2003|0-0-0-0-0|original-1-1-2-Toda la noche2023|0-0-0-0-0|0-0-0-0-0
+Gaia-0-1-1-OriginalGaia|0-0-0-0-0|Toda la noche-1-1-2-originalToda la noche|0-0-0-0-0|0-0-0-0-0
+Txus-0-1-1-Metal2003|Camilo-1-1-2-Rock Suave2023|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0
+TxusCarabana-0-1-1-EspaniaFinisterra|CamiloDenver-1-1-2-ColombiaRock Nacional|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0
+Txus-0-1-1-Gaia2003|RockEnEspaniol-1-1-2-Toda la noche2023|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0
+Finisterra-0-1-1-Mago de oz|0-0-0-0-0|Rock Nacional-1-1-2-Rock Nacional|0-0-0-0-0|0-0-0-0-0
+Gaia-0-1-1-Gaia|0-0-0-0-0|Toda la noche-1-1-2-Toda la noche|0-0-0-0-0|0-0-0-0-0
+Nic-0-1-1-Cado|Mawile-1-1-3-Kappuru|jon-1-1-5-ver|Jose -0-1-4-Jose Andrea|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|Anderson Perez-1-1-6-Barrio Pobre|Lul-1-1-2-lol|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0
+NullVoz-0-1-1-CadoVoz|Nic-1-0-0-0|Nullvlv-1-1-5-vervlv|Mawile-1-0-0-0|NullBlastoise-0-1-3-KappuruBlastoise|Nulllul-0-1-2-lollul|jon-0-0-0-0|Lul-0-0-0-0|MetalVoz-0-1-4-Jose AndreaVoz|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|Rock SuaveVoz-1-1-6-Barrio PobreVoz|0-0-0-0-0|Anderson Perez-1-1-2-a|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0|0-0-0-0-0
+0-0-0-0-0
