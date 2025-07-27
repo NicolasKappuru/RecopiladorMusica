@@ -1,0 +1,20 @@
+-Descargar una version de C++ con MinGW
+-Instalar en el computador marcando g++ y base. "apply changes"
+-Ubicar la ruta de la carpeta \bin
+-Esa carpeta agregarla al "Path" dentro de Variables del Sistema
+-Revisar en el cmd con el comando "g++ --version"
+
+En visual studio
+-Instalar las extensiones de C/C++, la extendede y la theme.
+-Instalar extension de CMake
+
+-Jalar el proyecto y verificar que los archivos tengan la ruta correcta que manejamos el g++
+-Pueden mirar utilizando (Ctrl + Shift + P) para ver el que tiene terminación (UI) 
+launch
+tacks
+properties
+Makefile
+
+
+Para compilar utilizar la combinación: (Ctrl + Shift + B)
+Para ejecutar y debuggear utilizar botones de Visual o ejecutar el .exe que se genera en la carpeta build. 
